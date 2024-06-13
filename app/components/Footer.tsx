@@ -3,8 +3,7 @@ import Link from 'next/link'
 
 /* 
 Add to footer:
-- Privacy, terms
-
+- Social icons (Github, Linkedin, ??)
 */ 
 
 export default function Footer() {
