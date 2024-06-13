@@ -6,8 +6,12 @@ import ArtPageTile from "../components/ArtPageTile";
 export default function Art() {
     return (
       <main>
-        <ArtPageTile />
-        <ArtPageTile />
+        <ArtPageTile 
+          text={"Hello"}
+        />
+        <ArtPageTile 
+          text={"Goodbye"}
+        />
       </main>
     );
   }
