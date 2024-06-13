@@ -4,16 +4,22 @@ import { useGSAP } from '@gsap/react';
 
 
 /* To-Do List: 
-- Create buttons for top (Home, Programming?, Art, About)
+
+HIGH PRIORITY: 
+- Determine fonts
+  - Local vs. Google 
+
+LOW PRIORITY: 
 - Animation of name text 
 - Scroll text object
 - Socials at bottom of the page 
+
 */ 
 
 export default function Home() {
   return (
     <main>
-      <h2>Home</h2>
+      <h2>Home.</h2>
     </main>
   );
 }

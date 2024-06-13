@@ -1,7 +1,13 @@
+import React from 'react';
+
+// Components
+import ArtPageTile from "../components/ArtPageTile";
+
 export default function Art() {
     return (
       <main>
-        <h2>My Art.</h2>
+        <ArtPageTile />
+        <ArtPageTile />
       </main>
     );
   }
