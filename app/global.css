@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav a:hover {
+    @apply text-gray-300;
+}
+
+nav a{
+    @apply pt-10;
+}
