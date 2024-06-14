@@ -8,6 +8,7 @@ import { useGSAP } from '@gsap/react';
 HIGH PRIORITY: 
 - Determine fonts
   - Local vs. Google 
+  - Google: Oswald, Barlow, Bebas Neue
 
 LOW PRIORITY: 
 - Animation of name text 

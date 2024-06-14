@@ -11,9 +11,10 @@ export default function Footer() {
 
   return (
     <div> 
-      <div className="">  
-      <Link href="https://github.com/cadesmith" className="">GITHUB</Link>
-      <p>© {year} - Cade Smith</p>
+      <div className="text-white">  
+        <Link href="https://github.com/cadesmith" className="">GITHUB</Link>
+        <Link href="">LINKEDIN</Link>
+        <p>© {year} - Cade Smith</p>
       </div>
     </div>
   )

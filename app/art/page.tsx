@@ -7,10 +7,10 @@ export default function Art() {
     return (
       <main>
         <ArtPageTile 
-          text={"Hello"}
+          text={"GRAPHIC DESGIN"}
         />
         <ArtPageTile 
-          text={"Goodbye"}
+          text={"PHOTOGRAPHY"}
         />
       </main>
     );

@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Barlow } from "next/font/google";
+import { Bebas_Neue } from "next/font/google";
 import "./global.css";
 
 // components 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+// Font constant
+const barlow = Barlow({ weight: "300", subsets: ["latin"] });
+const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Cade Smith Portfolio Site",
@@ -19,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={barlow.className}>
         <Navbar />
         {children}
         <Footer />
