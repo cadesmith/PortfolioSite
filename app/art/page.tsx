@@ -1,17 +1,16 @@
 import React from 'react';
 
-// Components
-import ArtPageTile from "../components/ArtPageTile";
-
 export default function Art() {
     return (
       <main>
-        <ArtPageTile 
-          text={"GRAPHIC DESGIN"}
-        />
-        <ArtPageTile 
-          text={"PHOTOGRAPHY"}
-        />
+        <div className='card'>
+          <div className='bg-white text-white'>
+            <p>GRAPHIC DESIGN</p>
+          </div>
+          <div className='bg-white text-white'>
+            <p>PHOTOGRAPHY</p>
+          </div>
+        </div>
       </main>
     );
   }

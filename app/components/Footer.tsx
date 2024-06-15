@@ -10,10 +10,11 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <div> 
-      <div className="text-white">  
-        <Link href="https://github.com/cadesmith" className="">GITHUB</Link>
-        <Link href="">LINKEDIN</Link>
+    <div className="grid h-10 bg-black text-white justify-items-center">  
+      <div>
+        <p>This is where socials will go</p>
+      </div>
+      <div> 
         <p>© {year} - Cade Smith</p>
       </div>
     </div>

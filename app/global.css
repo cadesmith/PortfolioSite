@@ -9,6 +9,3 @@ body {
 nav a:hover {
     @apply text-gray-300;
 }
-
-nav a{
-}
