@@ -27,9 +27,7 @@ export default function RootLayout({
       </head>
       <body className={barlow.className}>
         <Navbar />
-        <div className="h-dvh">
-          {children}
-        </div>
+        {children}
         <Footer />
       </body>
     </html>

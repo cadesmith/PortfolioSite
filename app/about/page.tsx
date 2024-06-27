@@ -1,17 +1,19 @@
-import Image from "next/image";
+import Image from 'next/image'
 import Portrait from './CadeSmith.jpg'
+
 
 export default function About() {
     return (
       <main>
-        <div className="flex">
-          <div className=""> 
+        <div className="flex justify-center">
+          <div className="flex w-1/3"> 
             <Image 
               src={Portrait}
-              alt='Cade Smith'
+              alt=''
               placeholder="blur"
-              height={800}
-              className="rounded-lg"
+              style={{
+                objectFit: "contain",
+              }}
             />
           </div>
           <div className="text-white"> 
