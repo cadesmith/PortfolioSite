@@ -3,7 +3,7 @@ import ArtTile from '../components/ArtTile';
 
 export default function Art() {
     return (
-      <main className='flex min-h-screen justify-center'>
+      <main className='flex justify-center'>
         <ArtTile />
         <ArtTile />
       </main>

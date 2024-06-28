@@ -5,7 +5,7 @@ import Portrait from './CadeSmith.jpg'
 export default function About() {
     return (
       <main>
-        <div className="flex justify-center p-12">
+        <div className="flex justify-center p-14">
           <div className="flex w-1/3"> 
             <Image 
               src={Portrait}

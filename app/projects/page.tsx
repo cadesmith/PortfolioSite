@@ -3,7 +3,7 @@ import Project from '../components/Project'
 
 export default function Programming() {
   return (
-    <div>
+    <div className='mt-10 mb-10'>
       <Project />
       <Project />
       <Project />
