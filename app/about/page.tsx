@@ -16,7 +16,7 @@ export default function About() {
               }}
             />
           </div>
-          <div className="flex text-white w-1/3 pl-10 mt-auto mb-20"> 
+          <div className="flex flex-col text-white w-1/3 pl-10 mt-auto mb-20"> 
             <div className="">
               <h2>Hi, I'm Cade.</h2>
             </div>

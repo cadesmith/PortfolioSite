@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 
+// Need to pass props and format well
+
 export default function Project() {
   return (
     <div className='flex w-screen py-4 justify-center'>

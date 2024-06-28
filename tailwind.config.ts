@@ -9,6 +9,9 @@ const config: Config = {
     extend: {
       width: {
         '128': '32rem',
+      },
+      translate: {
+        '1/5': '20%'
       }
     },
   },
