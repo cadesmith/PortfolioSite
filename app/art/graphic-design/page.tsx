@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function GraphicDesign() {
     return (
       <main>
@@ -5,4 +7,3 @@ export default function GraphicDesign() {
       </main>
     );
   }
-  
