@@ -21,7 +21,7 @@ export default function Project({ title, description, image, stack}: any) {
             <div className='text-xl mt-2'>
               <p>PROJECT DESCRIPTION</p>
             </div>
-            <div className='mt-2 space-x-2'> 
+            <div className='mt-4 space-x-2'> 
               <Bubble/>
               <Bubble/>
             </div>
