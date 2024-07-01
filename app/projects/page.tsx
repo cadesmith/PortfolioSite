@@ -13,6 +13,9 @@ export default function Projects() {
       <Project 
         title={'SPOTIFY APP NAME TBD'}
       />
+      <Project
+        title={'PORTFOLIO WEBSITE'}
+      />
     </div>
   )
 }

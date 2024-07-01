@@ -21,7 +21,7 @@ export default function Project({ title, description, image, stack}: any) {
             <div className='text-xl'>
               <p>PROJECT DESCRIPTION</p>
             </div>
-            <div>
+            <div> 
               <Bubble />
             </div>
           </div>
