@@ -18,11 +18,12 @@ export default function Project({ title, description, image, stack}: any) {
             <div className='text-7xl'>
               <h1 className={bebas.className}>{title}</h1>
             </div>
-            <div className='text-xl'>
+            <div className='text-xl mt-2'>
               <p>PROJECT DESCRIPTION</p>
             </div>
-            <div> 
-              <Bubble />
+            <div className='mt-2 space-x-2'> 
+              <Bubble/>
+              <Bubble/>
             </div>
           </div>
       </div>
