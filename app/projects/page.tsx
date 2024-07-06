@@ -9,7 +9,7 @@ export default function Projects() {
         stack={['NOTHING']}
       />
       <Project 
-        title={'A BYTE TO EAT'}
+        title={'GOOD BYTES'}
         stack={['NOTHING']}
       />
       <Project 
