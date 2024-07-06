@@ -6,15 +6,19 @@ export default function Projects() {
     <div className='mt-10 mb-10'>
       <Project 
         title={'MARIN TRAIL PROJECT'}
+        stack={['NOTHING']}
       />
       <Project 
         title={'A BYTE TO EAT'}
+        stack={['NOTHING']}
       />
       <Project 
         title={'SPOTIFY APP NAME TBD'}
+        stack={['NOTHING']}
       />
       <Project
         title={'PORTFOLIO WEBSITE'}
+        stack={['NEXT.JS', 'TYPESCRIPT', 'TAILWINDCSS', 'GSAP']}
       />
     </div>
   )

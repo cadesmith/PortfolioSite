@@ -9,3 +9,7 @@ body {
 nav a:hover {
     @apply text-gray-300;
 }
+
+h1 {
+    @apply text-7xl;
+}

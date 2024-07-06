@@ -5,8 +5,6 @@ import Bubble from './Bubble'
 
 const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
-// Need to pass props and format well
-
 export default function Project({ title, description, image, stack}: any) {
   return (
     <div className='flex justify-center'>
@@ -15,15 +13,16 @@ export default function Project({ title, description, image, stack}: any) {
             I'm a square that will be an image
           </div>
           <div className="flex-col w-2/3 text-white h-80">
-            <div className='text-7xl'>
+            <div>
               <h1 className={bebas.className}>{title}</h1>
             </div>
             <div className='text-xl mt-2'>
               <p>PROJECT DESCRIPTION</p>
             </div>
             <div className='mt-4 space-x-2'> 
-              <Bubble/>
-              <Bubble/>
+              {stack.map((tech: string, index: number) => (
+                <Bubble key={index} tech={tech} />
+              ))}
             </div>
           </div>
       </div>

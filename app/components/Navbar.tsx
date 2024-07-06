@@ -16,7 +16,7 @@ export default function Navbar() {
       <nav className='h-24 bg-black text-white grid grid-cols-5 place-items-center'>
         <Link href="/">HOME</Link>
         <Link href="/projects">PROJECTS</Link>
-        <div className='text-7xl pt-4'>
+        <div className='pt-4'>
           <h1 className={bebas.className}>CADE SMITH</h1>
         </div>
         <Link href="/art">ART</Link>

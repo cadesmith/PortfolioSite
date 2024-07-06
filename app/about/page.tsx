@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Portrait from './CadeSmith.jpg'
+import { Bebas_Neue } from 'next/font/google'
 
+const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
 export default function About() {
     return (
@@ -17,8 +19,8 @@ export default function About() {
             />
           </div>
           <div className="flex flex-col text-white w-1/3 pl-10 mt-auto mb-20"> 
-            <div className="">
-              <h2>Hi, I'm Cade.</h2>
+            <div className="text-">
+              <h1 className={bebas.className}>Hi, I'm Cade.</h1>
             </div>
             <div>
               <p>I'm a developer, photographer, and graphic artist based in San Francisco, California. Growing up near Silicon Valley, 

@@ -15,7 +15,7 @@ export default function ArtTile({ category, image, link}: any) {
         <div className='h-4/5 w-full bg-white'>
             <p>This is where an image will go</p>
         </div>``
-        <div className='flex place-items-center text-7xl text-white mt-8 ml-2'>
+        <div className='flex place-items-center text-white mt-8 ml-2'>
             <h1 className={bebas.className}>{category}</h1>
             <Link href={link} className='text-5xl ml-4 mb-4 transition-transform duration-300 
             ease-in-out hover:translate-x-1/5'>&#10132;</Link>
