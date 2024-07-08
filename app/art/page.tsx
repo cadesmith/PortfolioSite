@@ -7,10 +7,12 @@ export default function Art() {
         <ArtTile 
           category={"PHOTOGRAPHY"}
           link={"/art/photography"}
+          image={"/Ridgecrest.jpg"}
         />
         <ArtTile 
           category={"GRAPHIC DESIGN"}
           link={"/art/graphic-design"}
+          image={"/Ridgecrest.jpg"}
         />
       </main>
     );
