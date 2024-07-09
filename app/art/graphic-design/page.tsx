@@ -1,9 +1,12 @@
 import React from "react";
+import DesignTile from "../../components/DesignTile";
 
 export default function GraphicDesign() {
     return (
       <main>
-        <h2>My graphic design work.</h2>
+        <div className="grid justify-items-center my-14">
+          <DesignTile></DesignTile>
+        </div>
       </main>
     );
   }
