@@ -6,9 +6,6 @@ import React from 'react'
 // constants
 const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
-// need to pass image and text through
-// could add group hover to parent div to stop jitter on arrow hover
-
 export default function ArtTile({ category, image, link}: any) {
   return (
     <div className='flex flex-col m-14 w-128'>
