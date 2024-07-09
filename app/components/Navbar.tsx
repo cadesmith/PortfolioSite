@@ -13,7 +13,7 @@ const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 export default function Navbar() {
   return (
     <div className='mt-10'>
-      <nav className='h-24 bg-black text-white grid grid-cols-5 place-items-center'>
+      <nav className='h-24 bg-black grid grid-cols-5 place-items-center'>
         <Link href="/">HOME</Link>
         <Link href="/projects">PROJECTS</Link>
         <div className='pt-4'>

@@ -10,7 +10,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <div className="grid h-10 mb-16 bg-black text-white justify-items-center">  
+    <div className="grid h-10 mb-16 bg-black justify-items-center">  
       <div className='flex space-x-4 pb-2'>
         <a href="https://github.com/cadesmith"> 
           <Image src={'/Github.png'} alt='' width={40} height={40} quality={100}/>

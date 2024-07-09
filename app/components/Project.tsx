@@ -9,10 +9,10 @@ export default function Project({ title, description, image, stack}: any) {
   return (
     <div className='flex justify-center'>
       <div className='flex w-2/3 py-4'>
-          <div className="w-80 bg-white h-80 mr-14">
+          <div className="bg-white text-black w-80 h-80 mr-14">
             I'm a square that will be an image
           </div>
-          <div className="flex-col w-2/3 text-white h-80">
+          <div className="flex-col w-2/3 h-80">
             <div>
               <h1 className={bebas.className}>{title}</h1>
             </div>

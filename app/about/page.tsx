@@ -18,7 +18,7 @@ export default function About() {
               }}
             />
           </div>
-          <div className="flex flex-col text-white w-1/3 pl-10 mt-auto mb-20"> 
+          <div className="flex flex-col w-1/3 pl-10 mt-auto mb-20"> 
             <div className="text-">
               <h1 className={bebas.className}>Hi, I'm Cade.</h1>
             </div>
