@@ -12,7 +12,7 @@ export default function Art() {
         <ArtTile 
           category={"GRAPHIC DESIGN"}
           link={"/art/graphic-design"}
-          image={"/Ridgecrest.jpg"}
+          image={"/TwoPeaks.jpg"}
         />
       </main>
     );
