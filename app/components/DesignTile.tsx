@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function DesignTile({image, description, title, date}: any) {
   return (
-    <div className="grid bg-white text-black w-3/5">
+    <div className="grid w-3/5 justify-items-center">
       <div>IMAGE</div>
       <div className='grid'>
         <div className='flex items-center'>

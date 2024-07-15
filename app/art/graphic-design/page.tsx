@@ -6,6 +6,7 @@ export default function GraphicDesign() {
       <main>
         <div className="grid justify-items-center my-14">
           <DesignTile></DesignTile>
+          <DesignTile></DesignTile>
         </div>
       </main>
     );
