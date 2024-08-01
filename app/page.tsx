@@ -3,20 +3,6 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
 
-/* To-Do List: 
-
-HIGH PRIORITY: 
-- Determine fonts
-  - Local vs. Google 
-  - Google: Oswald, Barlow, Bebas Neue
-
-LOW PRIORITY: 
-- Animation of name text 
-- Scroll text object
-- Socials at bottom of the page 
-
-*/ 
-
 export default function Home() {
   return (
     <main>
