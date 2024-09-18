@@ -14,3 +14,16 @@ nav a:hover {
 h1 {
     @apply text-7xl;
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 3s ease-in-out forwards; 
+  }

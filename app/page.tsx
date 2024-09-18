@@ -20,7 +20,7 @@ export default function Home() {
         />
       </div>
       <div className="relative z-10 flex items-center justify-center w-full h-full">
-        <div className="text-center">
+        <div className="text-center fade-in">
           <h1 className={bebas.className}>WELCOME</h1>
         </div>
       </div>
