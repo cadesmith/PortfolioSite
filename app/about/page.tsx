@@ -22,10 +22,10 @@ export default function About() {
             <div className="text-">
               <h1 className={bebas.className}>Hi, I'm Cade.</h1>
             </div>
-            <div>
-              <p>I'm a developer, photographer, and graphic artist based in San Francisco, California. Growing up near Silicon Valley, 
-                it was impossible to feel the effects of xyz. For college, I chose to move across the country and attend Colgate University
-                in the small upstate town of Hamilton, New York where I studied computer science and art history.
+            <div className='text-2xl'>
+              <p>I'm a developer, photographer, and graphic artist based in the Bay Area. I attended Colgate University in Hamilton, NY
+              where I studied computer science and art history. Now I build responsive, effective web applications. When I'm not coding, 
+              you can find me hiking, mountain biking, or spending time with my three dogs.
               </p>
             </div>
           </div> 
