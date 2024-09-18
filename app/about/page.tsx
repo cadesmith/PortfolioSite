@@ -8,7 +8,7 @@ export default function About() {
     return (
       <main>
         <div className="grid justify-items-center xl:flex xl:justify-center">
-          <div className="xl:w-1/3"> 
+          <div className="w-4/5 xl:w-1/3"> 
             <Image 
               src={Portrait}
               alt=''
@@ -18,9 +18,9 @@ export default function About() {
               }}
             />
           </div>
-          <div className="grid mt-10 xl:flex md:flex-col xl:w-1/3 pl-10 xl:mt-auto mb-28"> 
+          <div className="grid mt-10 w-4/5 xl:flex md:flex-col xl:w-1/3 xl:pl-10 xl:mt-auto xl:mb-28"> 
             <div className="">
-              <h1 className={bebas.className}>ABOUT ME.</h1>
+              <h1 className={bebas.className}>ABOUT ME</h1>
             </div>
             <div className='text-xl'>
               <p>I'm a developer, photographer, and graphic artist based in the Bay Area. From 2020-2024 I attended Colgate University in Hamilton, NY
