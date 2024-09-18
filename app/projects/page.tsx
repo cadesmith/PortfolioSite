@@ -6,15 +6,15 @@ export default function Projects() {
     <div className='space-y-8'>
       <Project 
         title={'MARIN TRAIL PROJECT'}
-        stack={['NOTHING']}
+        stack={['IN DEVELOPMENT']}
       />
       <Project 
         title={'GOOD BYTES'}
-        stack={['NOTHING']}
+        stack={['IN DEVELOPMENT']}
       />
       <Project 
         title={'SPOTIFY APP NAME TBD'}
-        stack={['NOTHING']}
+        stack={['IN DEVELOPMENT']}
       />
       <Project
         title={'PORTFOLIO WEBSITE'}

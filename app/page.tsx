@@ -1,12 +1,16 @@
+"use client"
 import Image from "next/image";
 import { Bebas_Neue } from 'next/font/google'
 import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
+import { useState } from "react";
 
 
 const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
 export default function Home() {
+
+  const [imageLoaded, setImageLoaded] = useState(false);
+  
   return (
     <main className="relative w-screen h-screen overflow-hidden">
       <div className="absolute inset-0">
@@ -17,13 +21,16 @@ export default function Home() {
           objectFit="cover"
           quality={100}
           priority
+          onLoad={() => setImageLoaded(true)}
         />
       </div>
-      <div className="relative z-10 flex items-center justify-center w-full h-full">
+      {imageLoaded && (
+        <div className="relative z-10 flex items-center justify-center w-full h-full">
         <div className="text-center fade-in">
           <h1 className={bebas.className}>WELCOME</h1>
         </div>
       </div>
+      )}
     </main>
   );
 }
