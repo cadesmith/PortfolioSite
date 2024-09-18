@@ -7,7 +7,7 @@ const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 export default function About() {
     return (
       <main>
-        <div className="flex justify-center p-14">
+        <div className="flex justify-center">
           <div className="flex w-1/3"> 
             <Image 
               src={Portrait}

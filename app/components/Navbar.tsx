@@ -12,7 +12,7 @@ const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
 export default function Navbar() {
   return (
-    <nav className='container mt-6 mx-auto h-24 flex justify-between items-center'>
+    <nav className='container mt-6 mb-14 mx-auto h-24 flex justify-between items-center'>
       <div className='pt-4'>
         <h1 className={bebas.className}>CADE SMITH</h1>
       </div>

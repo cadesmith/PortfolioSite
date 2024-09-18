@@ -8,7 +8,7 @@ const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
 export default function ArtTile({ category, image, link}: any) {
   return (
-    <div className='flex flex-col m-14 w-128'>
+    <div className='flex flex-col w-128'>
         <div className='w-full'>
             <Image src={image} alt='' width='600' height='800' className='object-contain'></Image>
         </div>

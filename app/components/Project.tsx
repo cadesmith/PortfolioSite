@@ -8,7 +8,7 @@ const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 export default function Project({ title, description, image, stack}: any) {
   return (
     <div className='flex justify-center'>
-      <div className='flex w-2/3 py-4'>
+      <div className='flex w-2/3'>
           <div className="bg-white text-black w-80 h-80 mr-14">
             I'm a square that will be an image
           </div>
