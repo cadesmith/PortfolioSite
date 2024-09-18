@@ -13,12 +13,13 @@ export default function Projects() {
         stack={['IN DEVELOPMENT']}
       />
       <Project 
-        title={'GOOD BYTES'}
+        title={'CADE SMITH PHOTO'}
         stack={['IN DEVELOPMENT']}
       />
       <Project 
         title={'SPOTIFY APP NAME TBD'}
         stack={['IN DEVELOPMENT']}
+        image={'/Projects/MusicApp.png'}
       />
       <Project
         title={'PORTFOLIO WEBSITE'}

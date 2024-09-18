@@ -9,10 +9,6 @@ export default function Project({ title, description, image, stack }: any) {
   return (
     <div className="flex justify-center">
       <div className="flex flex-col md:flex-row w-full md:w-2/3">
-        <div className="bg-white text-black w-full h-60 md:w-80 md:h-80 mb-4 md:mb-0 md:mr-14 flex items-center justify-center">
-          I'm a square that will be an image
-        </div>
-        
         <div className="flex flex-col w-full md:w-2/3 h-auto md:h-80">
           <div>
             <h1 className={bebas.className}>{title}</h1>
