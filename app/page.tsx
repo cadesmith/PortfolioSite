@@ -13,21 +13,21 @@ export default function Home() {
   
   return (
     <main className="relative w-screen h-screen overflow-hidden">
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 z-10">
         <Image
           src='/Home/Fog_Lowscale.jpg'
           alt=''
           layout="fill"
           objectFit="cover"
           quality={100}
-          priority
+          priority  
           onLoad={() => setImageLoaded(true)}
         />
       </div>
       {imageLoaded && (
         <div className="relative z-10 flex items-center justify-center w-full h-full">
         <div className="text-center fade-in">
-          <h1 className={bebas.className}>WELCOME</h1>
+          <h1 className={bebas.className}>HI, I'M CADE.</h1>
         </div>
       </div>
       )}

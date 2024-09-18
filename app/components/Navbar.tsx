@@ -1,3 +1,5 @@
+"use client";
+import { useState } from 'react';
 import React from 'react'
 import Link from 'next/link'
 import clsx from 'clsx'
@@ -7,21 +9,61 @@ import { Bebas_Neue } from "next/font/google";
 
 const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
-// need to redisgn the navbar
-// <h1 className={(bebas.className, 'text-black')}>.</h1>
-
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
-    <nav className='bg-black container my-8 mx-auto h-16 flex justify-between items-center'>
-      <div className='pt-4'>
+    <nav className="bg-black container my-8 mx-auto h-16 flex justify-between items-center">
+      <div className="pl-4">
         <h1 className={bebas.className}>CADE SMITH</h1>
       </div>
-      <div className='space-x-10'>
-        <Link href="/">HOME</Link>
-        <Link href="/projects">PROJECTS</Link>
-        <Link href="/art">ART</Link>
-        <Link href="/about">ABOUT</Link>
+
+      <div className="pr-4 lg:hidden">
+        <button
+          onClick={toggleMenu}
+          className="text-white focus:outline-none"
+        >
+          <svg
+            className='w-6 h-6'
+            fill="none"
+            stroke="white"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeWidth="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div className="hidden lg:flex space-x-10 lg:pr-4">
+        <Link href="/" className="text-white hover:text-gray-400">HOME</Link>
+        <Link href="/projects" className="text-white hover:text-gray-400">PROJECTS</Link>
+        <Link href="/art" className="text-white hover:text-gray-400">ART</Link>
+        <Link href="/about" className="text-white hover:text-gray-400">ABOUT</Link>
+      </div>
+
+      <div
+        className={`lg:hidden absolute top-16 mt-10 z-50 left-0 w-full bg-black text-white overflow-hidden transition-all duration-300 ease-in-out ${
+          isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+        }`}
+      >
+        <div className="flex flex-col items-start space-y-4 p-4">
+          <Link href="/" className="text-white hover:text-gray-400" onClick={closeMenu}>HOME</Link>
+          <Link href="/projects" className="text-white hover:text-gray-400" onClick={closeMenu}>PROJECTS</Link>
+          <Link href="/art" className="text-white hover:text-gray-400" onClick={closeMenu}>ART</Link>
+          <Link href="/about" className="text-white hover:text-gray-400" onClick={closeMenu}>ABOUT</Link>
+        </div>
       </div>
     </nav>
-  )
+  );
 }
