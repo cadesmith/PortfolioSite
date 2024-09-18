@@ -8,9 +8,14 @@ const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
 export default function ArtTile({ category, image, link}: any) {
   return (
-    <div className='flex flex-col w-128'>
+    <div className='grid w-full justify-items-center'>
         <div className='w-full'>
-            <Image src={image} alt='' width='600' height='800' className='object-contain'></Image>
+            <Image 
+              src={image} 
+              alt='' 
+              width='400' 
+              height='600'>
+            </Image>
         </div>
         <div className='flex place-items-center mt-8 ml-2'>
             <h1 className={bebas.className}>{category}</h1>

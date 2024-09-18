@@ -3,7 +3,7 @@ import ArtTile from '../components/ArtTile';
 
 export default function Art() {
     return (
-      <main className='flex justify-center'>
+      <main className='grid justify-items-center lg:flex justify-center'>
         <ArtTile 
           category={"PHOTOGRAPHY"}
           link={"/art/photography"}

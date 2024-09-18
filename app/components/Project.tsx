@@ -5,27 +5,29 @@ import Bubble from './Bubble'
 
 const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
-export default function Project({ title, description, image, stack}: any) {
+export default function Project({ title, description, image, stack }: any) {
   return (
-    <div className='flex justify-center'>
-      <div className='flex w-2/3'>
-          <div className="bg-white text-black w-80 h-80 mr-14">
-            I'm a square that will be an image
+    <div className="flex justify-center">
+      <div className="flex flex-col md:flex-row w-full md:w-2/3">
+        <div className="bg-white text-black w-full h-60 md:w-80 md:h-80 mb-4 md:mb-0 md:mr-14 flex items-center justify-center">
+          I'm a square that will be an image
+        </div>
+        
+        <div className="flex flex-col w-full md:w-2/3 h-auto md:h-80">
+          <div>
+            <h1 className={bebas.className}>{title}</h1>
           </div>
-          <div className="flex-col w-2/3 h-80">
-            <div>
-              <h1 className={bebas.className}>{title}</h1>
-            </div>
-            <div className='text-xl mt-2'>
-              <p>PROJECT DESCRIPTION</p>
-            </div>
-            <div className='mt-4 space-x-2'> 
-              {stack.map((tech: string, index: number) => (
-                <Bubble key={index} tech={tech} />
-              ))}
-            </div>
+          <div className="text-xl mt-2">
+            <p>{description || "PROJECT DESCRIPTION"}</p>
           </div>
+          <div className="mt-4 space-x-2 flex flex-wrap"> 
+            {stack.map((tech: string, index: number) => (
+              <Bubble key={index} tech={tech} />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
+
