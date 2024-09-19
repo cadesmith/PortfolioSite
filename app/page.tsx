@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Bebas_Neue } from 'next/font/google'
 import gsap from 'gsap';
 import { useState } from "react";
+import Bubble from './Bubble'
 
 
 const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
@@ -17,10 +18,10 @@ export default function Home() {
         <Image
           src='/Home/Fog_Lowscale.jpg'
           alt=''
-          layout="fill"
-          objectFit="cover"
           quality={100}
+          fill={true}
           priority  
+          className="object-cover"
           onLoad={() => setImageLoaded(true)}
         />
       </div>
