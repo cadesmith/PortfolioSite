@@ -21,12 +21,15 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-black container my-8 mx-auto h-16 flex justify-between items-center">
-      <div className="pl-4">
+    <nav className="bg-black my-8 mx-4 sm:mx-8 h-16 flex justify-between items-center">
+      <div className="hidden sm:flex">
         <h1 className={bebas.className}>CADE SMITH</h1>
       </div>
+      <div className="flex sm:hidden">
+        <h1 className={bebas.className}>CS</h1>
+      </div>
 
-      <div className="pr-4 lg:hidden">
+      <div className="lg:hidden">
         <button
           onClick={toggleMenu}
           className="text-white focus:outline-none"
