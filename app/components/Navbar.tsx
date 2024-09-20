@@ -2,12 +2,9 @@
 import { useState } from 'react';
 import React from 'react'
 import Link from 'next/link'
-import clsx from 'clsx'
 
 // Fonts
-import { Bebas_Neue } from "next/font/google";
-
-const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
+import { bebas } from "../fonts";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
