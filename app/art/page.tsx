@@ -6,19 +6,19 @@ import { bebas } from '../fonts';
 export default function Art() {
     return (
       <main className='grid'>
-        <div className='lg:mb-10 p-6 grid justify-items-center'>
+        <div className='pb-6 grid justify-items-center'>
           <h1 className={`${bebas.className} text-8xl`}>ART</h1>
         </div>
-        <div className='grid md:flex h-96 mb-10 bg-white lg:mx-10'>
+        <div className='grid md:flex h-96 mb-10 lg:mx-10'>
           <div className='md:w-1/3 bg-pink-500'>
             
           </div>
-          <div className='w-2/3'>
+          <div className='lg:ml-10 bg-gray-500 lg:w-2/3'>
             
           </div>
         </div>
-        <div className='grid md:flex h-96 bg-white lg:mx-10'>
-          <div className='md:w-2/3 order-2 md:order-none'> 
+        <div className='grid md:flex h-96 lg:mx-10'>
+          <div className='lg:w-2/3 lg:mr-10 order-2 bg-gray-500 md:order-none'> 
 
           </div>
           <div className='order-1 md:order-none md:w-1/3 bg-pink-500'>
