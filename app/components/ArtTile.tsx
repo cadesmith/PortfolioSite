@@ -8,9 +8,15 @@ const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
 export default function ArtTile({ category, image, link}: any) {
   return (
-    <div className='grid justify-center text-black bg-white w-full'>
-        <div> 
-          IMAGE BLOCK
+    <div className='grid justify-center text-black w-full'>
+        <div className='grid'> 
+          <Image 
+            src={image}
+            alt=""
+            width={600}
+            height={900}
+            className='object-fit'
+          />
         </div>
     </div>
 

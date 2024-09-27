@@ -6,7 +6,7 @@ export default function About() {
     return (
       <main>
         <div className="grid justify-items-center xl:flex xl:justify-center">
-          <div className="w-4/5 xl:w-1/3"> 
+          <div className="w-full xl:w-1/3"> 
             <Image 
               src={Portrait}
               alt=''
