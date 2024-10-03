@@ -3,7 +3,6 @@ import Image from "next/image";
 import { Bebas_Neue } from 'next/font/google'
 import gsap from 'gsap';
 import { useState } from "react";
-import Bubble from './Bubble'
 
 
 const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })

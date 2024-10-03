@@ -28,17 +28,4 @@ h1 {
     animation: fadeIn 3s ease-in-out forwards; 
   }
 
-  .item {
-    width:14px;
-    height:14px;
-    background: #FFFFFF;
-    border-radius:7px;
-  }
-
-  .line {
-    height:103px;
-    width:2px;
-    background: #D1D6E6;
-    margin-left:5.3px;
-  }
   
