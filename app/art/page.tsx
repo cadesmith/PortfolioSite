@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import ArtTile from '../components/ArtTile';
 import { bebas } from '../fonts';
@@ -13,8 +14,12 @@ export default function Art() {
           <div className='md:w-1/3 bg-pink-500'>
             
           </div>
-          <div className='lg:ml-10 bg-gray-500 lg:w-2/3'>
-            
+          <div className='lg:ml-10 bg-gray-500 lg:w-2/3 lg:pl-10 lg:content-center'>
+            <div>
+              <h1>PHOTOGRAPHY</h1>
+              <Link href='/art/photography' className='text-5xl mb-4 transition-transform duration-300 
+              ease-in-out hover:translate-x-1/5'>&#10132;</Link>
+            </div>
           </div>
         </div>
         <div className='grid md:flex h-96 lg:mx-10'>
