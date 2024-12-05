@@ -1,26 +1,16 @@
 import React from "react";
 import PhotoTile from "../../components/PhotoTile";
 import Link from "next/link";
-
-// Make three grid divs inside a grid for desired layout (masonry)
+import { bebas } from '../../fonts';
 
 export default function Photography() {
   return (
     <div className="grid justify-items-center w-screen">
-      <div className="flexbox"> 
-        View all my photography
-        <Link href='https//www.cadesmithphoto.com'>here</Link>
+      <div className='pb-6 grid justify-items-center'>
+          <h1 className={`${bebas.className} text-8xl`}>PHOTOGRAPHY</h1>
       </div>
-      <div className="grid grid-cols-3 w-2/3 bg-white">
-        <div className="grid">
-          <PhotoTile />
-        </div>
-        <div className="grid">
-          <PhotoTile />
-        </div>
-        <div className="grid">
-          <PhotoTile />
-        </div>
+      <div> 
+
       </div>
     </div>
   )
