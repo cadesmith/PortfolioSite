@@ -24,14 +24,14 @@ export default function Art() {
           </div>
         </div>
         <div className='grid md:flex h-96 mx-10'>
-          <div className='lg:w-2/3 lg:mr-10 order-2 bg-white text-black md:order-none pl-10 lg:content-center'> 
+          <div className='lg:w-2/3 lg:mr-10 order-2 bg-white text-black md:order-none pr-10 pl-10 content-center'> 
             <h1>GRAPHIC DESIGN</h1>
             <div className='mb-4 transition-transform duration-300 ease-in-out hover:translate-x-5'>
-            <Link 
-              href='/art/photography' 
-              className='text-5xl'>
-              &#10132;
-            </Link>
+              <Link 
+                href='/art/photography' 
+                className='text-5xl'>
+                &#10132;
+              </Link>
             </div>
           </div>
           <div className='order-1 md:order-none md:w-1/3 bg-pink-500'>
