@@ -38,26 +38,8 @@ export default function Art() {
 
           </div>
         </div>
-        
       </main>
     );
   }
 
-  /* <div className='mt-0 md:mt-6 mb-16 border-b-2 p-6 grid justify-items-center'>
-          <h1 className={`${bebas.className} text-8xl`}>ART</h1>
-        </div>
-        <div className='grid grid-cols-1 mx-4 gap-y-6 md:flex'>
-          <ArtTile 
-            category={"PHOTOGRAPHY"}
-            link={"/art/photography"}
-            image={"/Ridgecrest.jpg"}
-          />
-          <ArtTile 
-            category={"GRAPHIC DESIGN"}
-            link={"/art/graphic-design"}
-            image={"/TwoPeaks.jpg"}
-          />
-        </div>
-
-  */
   
