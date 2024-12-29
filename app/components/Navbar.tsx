@@ -45,7 +45,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      <div className="hidden lg:flex space-x-10 lg:pr-4">
+      <div className="hidden lg:flex space-x-10 mb-2 lg:pr-4">
         <Link href="/" className="text-white hover:text-gray-400">HOME</Link>
         <Link href="/projects" className="text-white hover:text-gray-400">PROJECTS</Link>
         <Link href="/art" className="text-white hover:text-gray-400">ART</Link>

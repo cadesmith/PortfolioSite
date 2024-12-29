@@ -9,10 +9,10 @@ export default function Art() {
         <div className='pb-6 grid justify-items-center'>
           <h1 className={`${bebas.className} text-8xl`}>ART</h1>
         </div>
-        <div className='grid md:flex h-96 mb-10 mx-10'>
-          <div className='md:w-1/3 bg-pink-500'>
+        <div className='grid md:flex mb-10 mx-10'>
+          <div className='md:w-1/3 h-96 bg-pink-500'>
           </div>
-          <div className='lg:ml-10 bg-white text-black lg:w-2/3 pl-10 lg:content-center'>
+          <div className='lg:ml-10 bg-white text-black lg:w-2/3 h-48 md:h-96 sm:pt-4 pl-10 content-center'>
             <h1>PHOTOGRAPHY</h1>
             <div className='mb-4 transition-transform duration-300 ease-in-out hover:translate-x-5'>
               <Link 
