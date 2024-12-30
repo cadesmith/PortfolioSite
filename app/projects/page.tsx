@@ -5,7 +5,7 @@ import { bebas } from '../fonts'
 export default function Projects() {
   return (
     <div className='grid justify-items-center'>
-      <div className='mt-0 md:mt-6 p-6 grid'>
+      <div className='mt-0 pb-6 grid'>
         <h1 className={`${bebas.className} text-8xl`}>PROJECTS</h1>
       </div>
       <div className='sm:w-1/2'>
