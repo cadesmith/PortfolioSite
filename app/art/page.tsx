@@ -14,7 +14,7 @@ export default function Art() {
           </div>
           <div className='lg:ml-10 bg-white text-black lg:w-2/3 h-48 md:h-96 sm:pt-4 pl-10 content-center'>
             <h1>PHOTOGRAPHY</h1>
-            <div className='mb-4 transition-transform duration-300 ease-in-out hover:translate-x-5'>
+            <div className='mb-4 pl-2 transition-transform duration-300 ease-in-out hover:translate-x-5'>
               <Link 
                 href='/art/photography' 
                 className='text-5xl'>
@@ -24,9 +24,9 @@ export default function Art() {
           </div>
         </div>
         <div className='grid md:flex h-96 mx-10'>
-          <div className='lg:w-2/3 lg:mr-10 order-2 bg-white text-black md:order-none pr-10 pl-10 content-center'> 
+          <div className='lg:w-2/3 lg:mr-10 order-2 bg-white text-black h-48 md:h-96 md:order-none sm:pt-4 pr-10 pl-10 content-center'> 
             <h1>GRAPHIC DESIGN</h1>
-            <div className='mb-4 transition-transform duration-300 ease-in-out hover:translate-x-5'>
+            <div className='mb-4 pl-2 transition-transform duration-300 ease-in-out hover:translate-x-5'>
               <Link 
                 href='/art/photography' 
                 className='text-5xl'>
