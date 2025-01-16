@@ -9,10 +9,14 @@ const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 export default function ArtTile({ category, image, link}: any) {
   return (
     <div className='grid w-full'>
-      <div className='h-96 bg-white'>
-
-      </div>
-      <div className='w-full mt-10 pt-10 pb-8 pl-8 content-center text-black bg-white'>
+      <Image 
+        src={image}
+        alt=''
+        width={3000}
+        height={2000}
+        quality={100}
+      />
+      <div className='w-full pt-10 pb-8 pl-8 content-center text-black bg-white'>
         <h1>{category}</h1>
         <div className='pl-2 transition-transform duration-300 ease-in-out hover:translate-x-5'>
           <Link 

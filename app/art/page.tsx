@@ -16,6 +16,7 @@ export default function Art() {
           <ArtTile 
             category={'PHOTOGRAPHY'}
             link={'art/photography'}
+            image={'/Art/Electrivity.jpg'}
           />
 
           <ArtTile 
