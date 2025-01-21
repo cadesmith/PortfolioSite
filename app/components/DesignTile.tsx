@@ -8,16 +8,10 @@ export default function DesignTile({image, description, title, date}: any) {
         IMAGE
       </div>
       <div className='grid'>
-        <div className="flex justify-between items-start">
-          <div className="text-left">
-            <h1>TITLE</h1>
-          </div>
-          <div className="text-right">
-            <h2>DATE</h2>
-            </div>
-        </div>
         <div>
-          <p>DESCRIPTION</p>
+          <h1>{title}</h1>
+          <h1>{date}</h1>
+          <h1>{description}</h1>
         </div>
       </div>
     </div>
