@@ -8,7 +8,7 @@ export default function Projects() {
       <div className='mt-0 pb-6 grid'>
         <h1 className={`${bebas.className} text-8xl`}>PROJECTS</h1>
       </div>
-      <div className=''>
+      <div className='space-y-12'>
         <Project 
           title={'MARIN TRAIL PROJECT'}
           description={'Trail tracking app that allows users to treat hiking like a game.'}

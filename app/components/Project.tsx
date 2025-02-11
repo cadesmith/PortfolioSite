@@ -4,8 +4,8 @@ import Bubble from './Bubble'
 
 export default function Project({ title, description, stack }: any) {
   return (
-    <div className="grid px-10 sm:px-0">             
-          <div className="mb-12 border-2 p-10">            
+    <div className="grid px-10">             
+          <div className=" border-2 p-10">            
               <span className="absolute flex items-center justify-center bg-white ">
               </span>
               <div className='pt-px'>
