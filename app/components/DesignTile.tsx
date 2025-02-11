@@ -7,11 +7,17 @@ export default function DesignTile({image, description, title, date}: any) {
       <div className='flex justify-center'>
         IMAGE
       </div>
-      <div className='grid'>
+      <div className='grid bg-white text-black'>
+        <div className='flex justify-between'>
+          <div>
+            <h1>{title}</h1>
+          </div>
+          <div>
+            <h1>{date}</h1>
+          </div>
+        </div>
         <div>
-          <h1>{title}</h1>
-          <h1>{date}</h1>
-          <h1>{description}</h1>
+          <p>{description}</p>
         </div>
       </div>
     </div>
