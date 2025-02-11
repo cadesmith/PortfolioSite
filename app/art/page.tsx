@@ -11,13 +11,16 @@ export default function Art() {
           <h1 className={`${bebas.className} text-8xl`}>ART</h1>
         </div>
         
-        <div className='flex w-full space-x-14 px-16'>
+        <div className='grid 2xl:flex w-full 2xl:space-x-8 2xl:px-16'>
           
           <ArtTile 
             category={'PHOTOGRAPHY'}
             link={'art/photography'}
             image={'/Art/Electrivity.jpg'}
           />
+
+          <div className='h-14'>
+          </div>
 
           <ArtTile 
             category={'GRAPHIC DESIGN'}

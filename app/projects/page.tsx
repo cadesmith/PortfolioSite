@@ -8,21 +8,25 @@ export default function Projects() {
       <div className='mt-0 pb-6 grid'>
         <h1 className={`${bebas.className} text-8xl`}>PROJECTS</h1>
       </div>
-      <div className='sm:w-1/2'>
+      <div className=''>
         <Project 
           title={'MARIN TRAIL PROJECT'}
+          description={'Trail tracking app that allows users to treat hiking like a game.'}
           stack={['IN DEVELOPMENT']}
         />
         <Project 
           title={'CADE SMITH PHOTO'}
+          description={'Lightweight website used to showcase my photography.'}
           stack={['IN DEVELOPMENT']}
         />
         <Project 
-          title={'SPOTIFY APP NAME TBD'}
+          title={'QUIDDLER ONLINE'}
+          description={'A networked, online version of the card game Quiddler.'}
           stack={['IN DEVELOPMENT']}
         />
         <Project 
           title={'PERSONAL WEBSITE'}
+          description={'A website to display my coding projects, photography, and graphic design.'}
           stack={['NEXT.JS', 'TAILWIND CSS', 'TYPESCRIPT', 'GSAP']}
         />
       </div>
