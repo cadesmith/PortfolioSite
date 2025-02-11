@@ -18,7 +18,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-black my-8 mx-4 sm:mx-8 h-16 flex justify-between items-center">
+    <nav className="bg-black mt-8 mb-6 mx-4 sm:mx-8 h-16 flex justify-between items-center">
       <div className="hidden sm:flex">
         <h1 className={bebas.className}>CADE SMITH</h1>
       </div>
@@ -26,7 +26,7 @@ export default function Navbar() {
         <h1 className={bebas.className}>CS</h1>
       </div>
 
-      <div className="lg:hidden">
+      <div className="lg:hidden mb-1.5">
         <button
           onClick={toggleMenu}
           className="text-white focus:outline-none"
@@ -53,7 +53,7 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`lg:hidden absolute top-16 mt-10 z-50 left-0 w-full bg-black text-white overflow-hidden transition-all duration-300 ease-in-out ${
+        className={`lg:hidden absolute top-16 mt-10 z-50 left-0 w-full bg-black text-white overflow-hidden transition-all duration-500 ${
           isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
