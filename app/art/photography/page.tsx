@@ -1,17 +1,16 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { bebas } from '../../fonts';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { EffectFade, Autoplay } from 'swiper/modules';
 
-import 'swiper/css';
-import 'swiper/css/effect-fade';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
-import './global.css';
-
-
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function Photography() {
   return (
@@ -23,21 +22,29 @@ export default function Photography() {
         <Swiper 
           spaceBetween={30}
           effect={'fade'}
-          navigation={true}
-          pagination={{
-            clickable: true,
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
           }}
-          modules={[EffectFade, Navigation, Pagination]}
-          className="PhotoSlides"
+          modules={[EffectFade, Autoplay]}
+          className="w-[800px] h-[600px] bg-white text-black"
+          fadeEffect={{crossFade: true}}
         >
-          <SwiperSlide>
-            <Image>
+          <SwiperSlide className="w-full h-full flex items-center justify-center">
+            HI
+          </SwiperSlide>
+          <SwiperSlide className="w-full h-full flex items-center justify-center">
+            BYE
+          </SwiperSlide>
+          <SwiperSlide className="w-full h-full flex items-center justify-center">
+            Hello
           </SwiperSlide>
 
         </Swiper>
       </div>
       <div>
-        <p>To view all of my photos and purchase prints, visit my photography website:</p>
+        <p><br />To view all of my photos and purchase prints, visit my photography website:</p>
       </div>
     </div>
   )

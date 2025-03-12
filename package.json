@@ -11,10 +11,10 @@
     "dependencies": {
         "clsx": "^2.1.1",
         "gsap": "^3.12.5",
-        "next": "14.2.3",
+        "next": "^15.2.2",
         "react": "^18",
         "react-dom": "^18",
-        "swiper": "^11.2.3"
+        "swiper": "^11.2.5"
     },
     "devDependencies": {
         "@types/node": "^20",
