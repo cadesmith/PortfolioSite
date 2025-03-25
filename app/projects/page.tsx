@@ -1,13 +1,16 @@
 import React from 'react'
 import Project from '../components/Project'
 import { bebas } from '../fonts'
+import PageTitle from '../components/PageTitle'
 
 export default function Projects() {
   return (
     <div className='grid justify-items-center'>
-      <div className='mt-0 pb-6 grid'>
-        <h1 className={`${bebas.className} text-8xl`}>PROJECTS</h1>
-      </div>
+      
+      <PageTitle
+        title={'PROJECTS'}
+      />
+
       <div className='space-y-12'>
         <Project 
           title={'MARIN TRAIL PROJECT'}
@@ -27,7 +30,7 @@ export default function Projects() {
         <Project 
           title={'PERSONAL WEBSITE'}
           description={'A website to display my coding projects, photography, and graphic design.'}
-          stack={['NEXT.JS', 'TAILWIND CSS', 'TYPESCRIPT', 'GSAP']}
+          stack={['NEXT.JS', 'TAILWIND CSS', 'TYPESCRIPT', 'SWIPERJS']}
         />
       </div>
     </div>

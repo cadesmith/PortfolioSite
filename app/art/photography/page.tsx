@@ -3,7 +3,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { bebas } from '../../fonts';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Autoplay } from 'swiper/modules';
 
@@ -11,20 +10,23 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import PageTitle from "../../components/PageTitle";
 
 export default function Photography() {
   return (
     <div className="grid justify-items-center w-screen">
-      <div className='pb-6 grid justify-items-center'>
-        <h1 className={`${bebas.className} text-8xl`}>PHOTOGRAPHY</h1>
-      </div>
+      
+      <PageTitle 
+        title={'PHOTOGRAPHY'}
+      />
+
       <div>
         <Swiper 
           spaceBetween={30}
           effect={'fade'}
           loop={true}
           autoplay={{
-            delay: 2500,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           modules={[EffectFade, Autoplay]}
