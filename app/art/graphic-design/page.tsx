@@ -4,8 +4,8 @@ import PageTitle from "../../components/PageTitle";
 
 export default function GraphicDesign() {
     return (
-      <main>
-        <div className="grid justify-items-center">
+      <main className="bg-white">
+        <div className="grid justify-items-center pb-4">
           <PageTitle 
               title={'GRAPHIC DESIGN'}
           />

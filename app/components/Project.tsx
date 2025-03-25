@@ -5,9 +5,7 @@ import Bubble from './Bubble'
 export default function Project({ title, description, stack }: any) {
   return (
     <div className="grid px-10">             
-          <div className="border-2 p-10">            
-              <span className="absolute flex items-center justify-center bg-white ">
-              </span>
+          <div className="border-4 border-black p-10 text-black">            
               <div className='pt-px'>
                 <h1 className={`${bebas.className} text-6xl`}>{title}</h1>
               </div>

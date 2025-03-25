@@ -1,13 +1,10 @@
-import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import ArtTile from '../components/ArtTile';
-import { bebas } from '../fonts';
 import PageTitle from '../components/PageTitle';
 
 export default function Art() {
     return (
-      <main>
+      <main className='bg-white 2xl:pb-10'>
         
         <div className='flex justify-center'> 
           <PageTitle 
@@ -23,8 +20,6 @@ export default function Art() {
             image={'/Art/Electrivity.jpg'}
           />
 
-          <div className='h-14'>
-          </div>
 
           <ArtTile 
             category={'GRAPHIC DESIGN'}

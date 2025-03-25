@@ -16,7 +16,7 @@ export default function ArtTile({ category, image, link}: any) {
         height={2000}
         quality={100}
       />
-      <div className='w-full pt-10 pb-8 pl-8 content-center text-black bg-white'>
+      <div className='w-full pt-10 pb-8 pl-8 content-center text-white bg-black'>
         <h1>{category}</h1>
         <div className='pl-2 transition-transform duration-300 ease-in-out hover:translate-x-5'>
           <Link 

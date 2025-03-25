@@ -4,8 +4,8 @@ import { bebas } from '../fonts';
 
 export default function About() {
     return (
-      <main>
-        <div className="grid justify-items-center xl:flex xl:justify-center xl:mt-10">
+      <main >
+        <div className="grid bg-white justify-items-center xl:py-10 xl:flex xl:justify-center">
           <div className="w-full xl:w-1/3"> 
             <Image 
               src={Portrait}
@@ -16,7 +16,7 @@ export default function About() {
               }}
             />
           </div>
-          <div className="grid mt-10 w-4/5 xl:flex md:flex-col xl:w-1/3 xl:pl-10 xl:mt-auto xl:mb-28"> 
+          <div className="grid text-black my-10 w-4/5 xl:flex md:flex-col xl:w-1/3 xl:pl-10 xl:mt-auto xl:mb-28"> 
             <div className="">
               <h1 className={`${bebas.className}`}>ABOUT ME</h1>
             </div>

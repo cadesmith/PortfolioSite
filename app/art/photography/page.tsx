@@ -14,7 +14,7 @@ import PageTitle from "../../components/PageTitle";
 
 export default function Photography() {
   return (
-    <div className="grid justify-items-center w-screen">
+    <div className="grid bg-white justify-items-center w-screen">
       
       <PageTitle 
         title={'PHOTOGRAPHY'}
@@ -45,7 +45,7 @@ export default function Photography() {
 
         </Swiper>
       </div>
-      <div>
+      <div className="text-black pb-10">
         <p><br />To view all of my photos and purchase prints, visit my photography website:</p>
       </div>
     </div>
