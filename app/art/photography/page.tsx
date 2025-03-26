@@ -6,13 +6,15 @@ import PageTitle from "../../components/PageTitle";
 
 export default function Photography() {
   return (
-    <div className="grid bg-white justify-items-center h-full w-screen max-w-screen">
+    <div className="grid bg-white justify-items-center h-full w-full">
       
       <PageTitle 
         title={'PHOTOGRAPHY'}
       />
 
-      <ImageFade />
+      <div className="w-96 h-96">
+        <ImageFade />
+      </div>
 
       <div className="text-black pb-10">
         <p className="text-lg"><br />Photography site launching June 2025. Check back here for updates!</p>
