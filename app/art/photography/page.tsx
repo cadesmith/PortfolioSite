@@ -30,7 +30,7 @@ export default function Photography() {
             disableOnInteraction: false,
           }}
           modules={[EffectFade, Autoplay]}
-          className="w-[800px] h-[600px] bg-white text-black"
+          className="w-[800px] h-[600px] bg-black text-white"
           fadeEffect={{crossFade: true}}
         >
           <SwiperSlide className="w-full h-full flex items-center justify-center">
@@ -46,7 +46,7 @@ export default function Photography() {
         </Swiper>
       </div>
       <div className="text-black pb-10">
-        <p><br />To view all of my photos and purchase prints, visit my photography website:</p>
+        <p className="text-lg"><br />Photography site launching June 2025. Check back here for updates!</p>
       </div>
     </div>
   )

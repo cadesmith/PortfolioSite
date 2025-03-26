@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image";
 import { Bebas_Neue } from 'next/font/google'
-import gsap from 'gsap';
 import { useState } from "react";
 
 
@@ -25,9 +24,10 @@ export default function Home() {
         />
       </div>
       {imageLoaded && (
-        <div className="relative z-10 flex items-center justify-center w-full h-full">
-          <div className="text-center fade-in">
-            <h1 className={bebas.className}>HI, I'M CADE.</h1>
+        <div className="relative z-10 grid items-center w-full h-full">
+          <div className="text-center">
+            <h1 className={`${bebas.className} fade-in`}>HI, I'M CADE</h1>
+            <p className="fade-in2"> Welcome to my site.</p>
           </div>
         </div>
       )}
