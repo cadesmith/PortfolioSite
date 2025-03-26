@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import ArtTile from '../components/ArtTile';
 import PageTitle from '../components/PageTitle';
 
@@ -24,7 +23,7 @@ export default function Art() {
           <ArtTile 
             category={'GRAPHIC DESIGN'}
             link={'art/graphic-design'}
-            image={'/Art/sfFogPoster.jpg'}
+            image={'/Art/fogPoster.jpg'}
           />
 
         </div>
