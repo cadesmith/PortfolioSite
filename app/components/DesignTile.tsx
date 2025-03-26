@@ -18,7 +18,7 @@ export default function DesignTile({image, description, title, date}: any) {
               />
       </div>
 
-      <div className='grid bg-white text-black pt-2 pb-6 w-full xl:w-4/5'>
+      <div className='grid bg-white text-black pt-2 pb-6 w-full xl:border-l-8 xl:border-black xl:w-4/5'>
         <div className='flex justify-between mt-4 mx-4'>
           <div className='w-2/3'>
             <h1 className='text-5xl font-bold'>{title}</h1>
