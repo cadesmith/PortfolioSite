@@ -17,13 +17,14 @@ export default function Art() {
           <ArtTile 
             category={'PHOTOGRAPHY'}
             link={'art/photography'}
-            image={'/Art/Electrivity.jpg'}
+            image={'/Art/Electricity.jpg'}
           />
 
 
           <ArtTile 
             category={'GRAPHIC DESIGN'}
             link={'art/graphic-design'}
+            image={'/Art/sfFogPoster.jpg'}
           />
 
         </div>

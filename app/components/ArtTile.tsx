@@ -1,10 +1,7 @@
-import { Bebas_Neue } from 'next/font/google'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-// constants
-const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] })
 
 export default function ArtTile({ category, image, link}: any) {
   return (
