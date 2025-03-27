@@ -18,14 +18,19 @@ const ImageFade = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-full overflow-hidden">
+    <div className="overflow-hidden">
       {images.map((src, i) => (
         <Image
           key={i}
           src={src}
-          alt={`Slide ${i}`}
-          fill
-          className={`absolute transition-opacity duration-1000 ${
+          alt={src}
+          width={3000}
+          height={2000}
+          style={{
+            width: '100%',
+            height: 'auto',
+          }}  
+          className={`transition-opacity duration-1000 ${
             i === index ? "opacity-100" : "opacity-0"
           }`}
         />
