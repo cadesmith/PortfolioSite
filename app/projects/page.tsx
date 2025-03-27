@@ -30,7 +30,7 @@ export default function Projects() {
         <Project 
           title={'PERSONAL WEBSITE'}
           description={'A website to display my coding projects, photography, and graphic design.'}
-          stack={['NEXT.JS', 'TAILWIND CSS', 'TYPESCRIPT', 'SWIPERJS']}
+          stack={['NEXT.JS', 'TAILWIND CSS', 'TYPESCRIPT']}
         />
       </div>
     </div>
