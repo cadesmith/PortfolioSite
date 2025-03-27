@@ -2,8 +2,11 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 
 const images = [
-  "/Art/Electricity.jpg",
-  "/Art/fogPoster.jpg",
+  "/Art/Photography/Abalone.jpg",
+  "/Art/Photography/Decay.jpg",
+  "/Art/Photography/IceCream.jpg",
+  "/Art/Photography/StackLadder.jpg",
+  "/Art/Photography/AmericanCrane.jpg"
 ];
 
 const ImageFade = () => {
@@ -12,13 +15,13 @@ const ImageFade = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); 
+    }, 6000); 
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="overflow-hidden">
+    <div className="grid overflow-hidden">
       {images.map((src, i) => (
         <Image
           key={i}
@@ -30,7 +33,7 @@ const ImageFade = () => {
             width: '100%',
             height: 'auto',
           }}  
-          className={`transition-opacity duration-1000 ${
+          className={`col-start-1 row-start-1 transition-opacity duration-1000 ${
             i === index ? "opacity-100" : "opacity-0"
           }`}
         />

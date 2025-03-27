@@ -12,7 +12,7 @@ export default function Photography() {
         title={'PHOTOGRAPHY'}
       />
 
-      <div className="flex justify-center xl:w-4/5">
+      <div className="flex justify-center mx-4 xl:w-4/5">
         <ImageFade />
       </div>
 
