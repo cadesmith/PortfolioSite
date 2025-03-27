@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { Viewport } from "next";
 import { Barlow } from "next/font/google";
 import "./global.css";
 
@@ -11,7 +12,15 @@ const barlow = Barlow({ weight: "300", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Cade Smith Portfolio Site",
+  
 };
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+}
 
 export default function RootLayout({
   children,
