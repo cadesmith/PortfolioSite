@@ -9,7 +9,6 @@ export default function DesignTile({image, description, title, date}: any) {
                 src={image}
                 alt=''
                 quality={100}
-                placeholder='blur'
                 width={1296}
                 height={1728}
                 style={{
