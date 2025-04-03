@@ -12,7 +12,7 @@ nav a:hover {
 }
 
 h1 {
-    @apply text-7xl;
+    @apply text-5xl;
 }
 
 @keyframes fadeIn {

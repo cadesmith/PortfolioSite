@@ -26,8 +26,8 @@ export default function Home() {
       {imageLoaded && (
         <div className="relative z-10 grid items-center w-full h-full">
           <div className="text-center">
-            <h1 className={`${bebas.className} fade-in`}>HI, I'M CADE</h1>
-            <p className="fade-in2"> Welcome to my site.</p>
+            <h1 className={`${bebas.className} fade-in text-6xl`}>HI, I'M CADE</h1>
+            <p className="fade-in2 text-sm"> Welcome to my site.</p>
           </div>
         </div>
       )}

@@ -11,7 +11,7 @@ export default function Projects() {
         title={'PROJECTS'}
       />
 
-      <div className='space-y-12 pb-10'>
+      <div className='space-y-6 pb-10'>
         <Project 
           title={'MARIN TRAIL PROJECT'}
           description={'Trail tracking app that allows users to treat hiking like a game.'}
@@ -29,7 +29,7 @@ export default function Projects() {
         />
         <Project 
           title={'PERSONAL WEBSITE'}
-          description={'A website to display my coding projects, photography, and graphic design.'}
+          description={'SPA made to display my coding projects, photography, and graphic design.'}
           stack={['NEXT.JS', 'TAILWIND CSS', 'TYPESCRIPT']}
         />
       </div>
