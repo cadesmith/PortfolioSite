@@ -12,14 +12,20 @@ const barlow = Barlow({ weight: "300", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Cade Smith Portfolio Site",
-  
+  description: "A website to display Cade Smith's coding projects and art.",
+  openGraph: {
+    title: 'Next.js',
+    description: 'The React Framework for the Web',
+    url: 'https://cadesmith.dev',
+    siteName: 'Next.js',
+    locale: 'en_US',
+    type: 'website'
+  },
 };
 
 export const viewport: Viewport = {
   width: 'device-width',
-  initialScale: 0.8,
-  maximumScale: 0.8,
-  userScalable: false,
+  initialScale: 1.0,
 }
 
 export default function RootLayout({
