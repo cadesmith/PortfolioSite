@@ -16,8 +16,8 @@ export default function Photography() {
         <ImageFade />
       </div>
 
-      <div className="text-black pb-10">
-        <p className="text-lg"><br />Photography site launching June 2025. Check back here for updates!</p>
+      <div className="text-black pt-4 pb-10">
+        <p className="text-md"><br />Photography site launching June 2025. Check back here for updates!</p>
       </div>
     </div>
   )

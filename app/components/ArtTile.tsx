@@ -13,12 +13,12 @@ export default function ArtTile({ category, image, link}: any) {
         height={2000}
         quality={100}
       />
-      <div className='w-full pt-10 pb-8 pl-8 content-center text-white bg-black'>
-        <h1>{category}</h1>
-        <div className='pl-2 transition-transform duration-300 ease-in-out hover:translate-x-5'>
+      <div className='w-full pt-6 pb-6 pl-8 content-center text-white bg-black'>
+        <h1 className='text-4xl lg:text-5xl'>{category}</h1>
+        <div className='pl-px transition-transform duration-300 ease-in-out hover:translate-x-5'>
           <Link 
             href={link} 
-            className='text-5xl'>
+            className='text-3xl lg:text-4xl'>
             &#10132;
           </Link>
         </div>

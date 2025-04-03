@@ -11,7 +11,7 @@ export default function Art() {
           />
         </div>
 
-        <div className='grid space-y-10 pb-10 px-10 w-full 2xl:flex 2xl:space-y-0 2xl:space-x-8 2xl:px-16'>
+        <div className='grid space-y-10 pb-10 px-8 w-full lg:flex lg:space-y-0 lg:space-x-8 lg:px-10'>
           
           <ArtTile 
             category={'PHOTOGRAPHY'}
