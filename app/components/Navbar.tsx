@@ -18,7 +18,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-black mt-4 mb-2 mx-4 sm:mx-8 h-16 flex justify-between items-center">
+    <nav className="bg-black mt-3 mb-2 mx-4 sm:mx-8 h-16 flex justify-between items-center">
       <div className="hidden sm:flex">
         <h1 className={bebas.className}>CADE SMITH</h1>
       </div>
@@ -26,7 +26,7 @@ export default function Navbar() {
         <h1 className={bebas.className}>CS</h1>
       </div>
 
-      <div className="lg:hidden mb-1.5">
+      <div className="lg:hidden mt-px mb-1.5">
         <button
           onClick={toggleMenu}
           className="text-white focus:outline-none"
@@ -45,7 +45,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      <div className="hidden lg:flex space-x-6 text-sm mb-2 lg:pr-4">
+      <div className="hidden lg:flex space-x-6 text-sm mb-2 mt-px lg:pr-2">
         <Link href="/" className="text-white hover:text-gray-400">HOME</Link>
         <Link href="/projects" className="text-white hover:text-gray-400">PROJECTS</Link>
         <Link href="/art" className="text-white hover:text-gray-400">ART</Link>
@@ -53,7 +53,7 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`lg:hidden absolute top-16 mt-6 border-t-2 border-white z-50 left-0 w-full bg-black text-white overflow-hidden transition-all duration-500 ${
+        className={`lg:hidden absolute top-16 mt-4 border-t-2 border-white z-50 left-0 w-full bg-black text-white overflow-hidden transition-all duration-500 ${
           isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
         }`}
       >

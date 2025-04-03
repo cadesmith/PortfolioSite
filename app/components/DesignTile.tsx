@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function DesignTile({image, description, title, date}: any) {
+export default function DesignTile({image, description, title}: any) {
   return (
-    <div className="grid place-items-center w-full">
-      <div className='flex justify-center xl:w-4/5'>
+    <div className="grid place-items-center lg:w-1/2 mb-4 px-2">
+      <div className='flex justify-center w-full'>
         <Image 
                 src={image}
                 alt=''
@@ -18,12 +18,12 @@ export default function DesignTile({image, description, title, date}: any) {
               />
       </div>
 
-      <div className='grid bg-white text-black pt-3 pb-2 w-full xl:border-l-8 xl:border-black xl:w-4/5'>
-        <div className='ml-3'>
-          <h1 className='text-4xl font-bold'>{title}</h1>
+      <div className='bg-black text-white px-2 text-center pt-3 pb-2 w-full'>
+        <div className=''>
+          <h1 className='text-2xl lg:text-3xl font-bold'>{title}</h1>
         </div>
-        <div className='ml-4 mt-px'>
-          <p className='text-md'>{description}</p>
+        <div className='mt-px pb-2 px-2 xl:pl-1'>
+          <p className='text-md break-words'>{description}</p>
         </div>
       </div>
     </div>
