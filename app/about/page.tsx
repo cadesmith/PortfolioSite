@@ -22,7 +22,7 @@ export default function About() {
             </div>
             <div className='text-md'>
               <p>I'm a developer, photographer, and graphic artist based in the Bay Area. From 2020-2024 I attended Colgate University in Hamilton, NY
-              where I studied computer science and art history. Now I build responsive, effective web applications. When I'm not coding, 
+              where I studied computer science and art history. Now I build responsive, effective web applications. When I'm not coding 
               you can find me taking pictures, reading a good book, working on a graphic design project, or solving the New York Times crossword puzzle.
               </p>
             </div>
