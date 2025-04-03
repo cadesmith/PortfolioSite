@@ -53,7 +53,7 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`lg:hidden absolute top-16 mt-6 z-50 left-0 w-full bg-black text-white overflow-hidden transition-all duration-500 ${
+        className={`lg:hidden absolute top-16 mt-6 border-t-2 border-white z-50 left-0 w-full bg-black text-white overflow-hidden transition-all duration-500 ${
           isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
